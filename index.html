@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Responsive Portfolio Website HTML CSS JS</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Fontawesome CDN Link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+  <!-- Move to up button -->
+  <div class="scroll-button">
+    <a href="#home"><i class="fas fa-arrow-up"></i></a>
+  </div>
+  <!-- navgaition menu -->
+  <nav>
+    <div class="navbar">
+      <div class="logo"><a href="#"> My Portfolio.</a></div>
+      <ul class="menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#Projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <div class="cancel-btn">
+          <i class="fas fa-times"></i>
+        </div>
+      </ul>
+      <div class="media-icons">
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+    <div class="menu-btn">
+      <i class="fas fa-bars"></i>
+    </div>
+  </nav>
+
+  <!-- Home Section Start -->
+  <section class="home" id="home">
+    <!-- <div class="img"> <img src="mohit.jpg" alt=""></div> -->
+    <div class="home-content">
+      <div class="text">
+        <div class="text-one">Hello,</div>
+        <div class="text-two">I'm Mohammed Sohel Pasha</div>
+        <div class="text-three">DevOps Enthusiast</div>
+        <div class="text-four">From India</div>
+      </div>
+      <div class="button">
+        <button>Hire Me</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section Start -->
+  <section class="about" id="about">
+    <div class="content">
+      <div class="title"><span>About Me</span></div>
+      <div class="about-details">
+        <div class="left">
+          <img src="sohel.jpg" alt="" />
+        </div>
+        <div class="right">
+          <div class="topic">Passionate DevOps Enthusiast</div>
+          <p>
+            I am a dedicated DevOps enthusiast with a strong foundation in automating, optimizing, and streamlining development processes. My expertise spans across creating scalable, efficient infrastructure and ensuring seamless integration between development and operations teams. On the development side, I work with tools like Git, Jenkins, and Docker, enabling continuous integration and continuous delivery (CI/CD) pipelines that accelerate the release cycle. For infrastructure management, I am skilled in using Terraform, Ansible, and Kubernetes to automate provisioning, scaling, and deployment. I’m passionate about writing clean, reusable code, optimizing infrastructure, and always looking for new challenges to advance my skills and make an impact on innovative projects.
+          </p>
+          <div class="button">
+            <button>Download Resume</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- My Skill Section Start -->
+  <!-- Section Tag and Other Div will same where we need to put same CSS -->
+  <section class="skills" id="skills">
+    <div class="content">
+      <div class="title"><span>My Skills</span></div>
+      <div class="skills-details">
+        <div class="text">
+          <div class="topic">Why I Chose Development in DevOps ? </div>
+          <p>From a young age, I’ve been captivated by technology and the way things work. The thrill of building something from scratch, whether it’s a complex pipeline, a cloud infrastructure, or an automated deployment process, has always inspired me. This passion led me to the world of DevOps—a field where development and operations meet to deliver seamless solutions that bridge gaps, streamline workflows, and maximize efficiency.In DevOps, I can take ideas and transform them into solutions that drive productivity and innovation. I enjoy working with tools like Docker, Jenkins, and Terraform, and exploring new technologies that enable continuous integration, automated testing, and deployment. The challenge of optimizing infrastructure, enhancing system reliability, and improving delivery speed fuels my desire to keep learning and refining my skills.
+            What excites me most is the impact of DevOps on modern technology. By creating resilient, scalable systems, I can contribute to products that enhance user experiences, accelerate development cycles, and shape the future of technology. Seeing my work come to life and knowing it helps teams achieve more brings a deep sense of fulfillment.</p>
+          <div class="experience">
+            <div class="num">
+              Having recently graduated in 2024, I am eager to launch my career through impactful roles and internships. As a passionate beginner, I am ready to bring fresh perspectives and dedication to new challenges.</div>
+            <div class="exp"></div>
+          </div>
+        </div>
+        <div class="boxes">
+          <div class="box">
+            <div class="topic">DOCKER</div>
+            <div class="per">90%</div>
+          </div>
+          <div class="box">
+            <div class="topic">KUBERNETES</div>
+            <div class="per">80%</div>
+          </div>
+          <div class="box">
+            <div class="topic">GIT</div>
+            <div class="per">78%</div>
+          </div>
+          <div class="box">
+            <div class="topic">MAVEN</div>
+            <div class="per">84%</div>
+          </div>
+          <div class="box">
+            <div class="topic">TERRAFORM</div>
+            <div class="per">90%</div>
+          </div>
+          <div class="box">
+            <div class="topic">ELK</div>
+            <div class="per">74%</div>
+          </div>
+          <div class="box">
+            <div class="topic">AWS</div>
+            <div class="per">65%</div>
+          </div>
+          <div class="box">
+            <div class="topic">JENKINS</div>
+            <div class="per">70%</div>
+          </div>
+          <div class="box">
+            <div class="topic">PYTHON</div>
+            <div class="per">80%</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- My Projects Section Start -->
+  <section class="Projects" id="Projects">
+    <div class="content">
+      <div class="title"><span>My Projects</span></div>
+      <div class="boxes">
+        <div class="box">
+          <div class="icon">
+            <i class="fas fa-desktop"></i>
+          </div>
+          <div class="topic"><a href="https://github.com/sohelmohammed0/devguide.git">DevOps Guide Application</a> </div>
+          <p> <strong>Built:</strong> Designed a beginner-friendly DevOps learning app using HTML, CSS, and JavaScript, focused on responsive and intuitive user experience. <br>
+            <strong>Dockerized:</strong> Ensured cross-environment compatibility with Docker, facilitating easy setup for both local and cloud deployments. <br>
+            <strong>Enhanced Accessibility:</strong> Optimized for rapid deployment, enabling 100+ users to access the guide seamlessly across platforms.</p>
+        </div>
+        <div class="box">
+          <div class="icon">
+            <i class="fas fa-paint-brush"></i>
+          </div>
+          <div class="topic"><a href="https://github.com/sohelmohammed0/spring-petclinic">Spring Pet Clinic Website Development and Containerization </a></div>
+          <p><strong>Developed:</strong> Created the Spring Pet Clinic web app with Spring Framework and Maven for modularity and maintainability. <br>
+            <strong>Containerized:</strong> Built a Dockerfile to standardize deployments, ensuring seamless transitions across development, testing, and production stages. <br>
+            <strong>Optimized:</strong> Reduced deployment time by 30% and improved environment consistency through containerization.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- Contact Me Section Start -->
+<section class="contact" id="contact">
+  <div class="content">
+    <div class="title"><span>Contact Me</span></div>
+    <div class="text">
+      <div class="topic">Have Any Questions?</div>
+      <p>You can contact me if you have any job or internship referrals, or if you would like more details about a project. Please feel free to reach out. Thank you!</p>
+      <div class="button">
+        <a href="mailto:yourname@example.com?subject=Job%20or%20Internship%20Inquiry&body=Hello,%20I%20would%20like%20to%20discuss...">
+          <button>Let's Chat</button>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Footer Section Start -->
+  <footer>
+    <div class="text">
+      <span>Created By <a href="#">Sohel Mohammed</a> | &#169; 2024 All Rights Reserved</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
